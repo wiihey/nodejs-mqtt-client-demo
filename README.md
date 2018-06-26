@@ -4,8 +4,8 @@
 
 You are going to need following tools:
 
-Install [Git](https://git-scm.com/downloads)
-Install [Node.js and NPM](https://nodejs.org/en/)
+* Install [Git](https://git-scm.com/downloads)
+* Install [Node.js and NPM](https://nodejs.org/en/)
 
 You can verify your installation by running the following in a Terminal window:
 

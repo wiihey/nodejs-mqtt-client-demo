@@ -9,12 +9,12 @@ Install [Node.js and NPM](https://nodejs.org/en/)
 
 You can verify your installation by running the following in a Terminal window:
 
-$ git --version
-git version 2.17.1
-$ node -v
-v10.4.1
-$ npm -v
-6.1.0
+> $ git --version
+> git version 2.17.1
+> $ node -v
+> v10.4.1
+> $ npm -v
+> 6.1.0
 
 ## Step 2: Download Sample Project
 

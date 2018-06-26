@@ -21,7 +21,7 @@ var client = mqtt.connect(options);
 client.subscribe("apps/" + APP_ID + '/inbox');
 
 client.on("connect", function() {
-  console.log("Connection Established");
+  console.log("Connected to WiiHey DaaS Platform");
 });
 
 client.on("message", function(topic, message) {

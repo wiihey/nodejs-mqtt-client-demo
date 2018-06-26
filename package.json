@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mqtt-client-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiihey/nodejs-mqtt-client-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wiihey/nodejs-mqtt-client-demo/issues"
+  },
+  "homepage": "https://github.com/wiihey/nodejs-mqtt-client-demo#readme",
+  "dependencies": {
+    "mqtt": "^2.18.1"
+  }
+}

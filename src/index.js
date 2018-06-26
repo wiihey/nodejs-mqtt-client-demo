@@ -29,3 +29,5 @@ client.on("message", function(topic, message) {
 
   // Process Received Message
 });
+
+console.log('WiiHey DaaS Client Started');

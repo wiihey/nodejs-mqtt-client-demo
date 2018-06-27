@@ -67,5 +67,5 @@ Received: {"DeviceID":"3","State":"close","BatteryLevel":9971,"CSQ":31,"IMEI":"8
 
 ## Links
 
-[wiihey.com](http://wiihey.com/en/index.html)
-[WiiHey DaaS Platform MQTT API](https://wiihey.github.io/wiihey-daas-platform-mqtt-api)
+* WiiHey Website: [wiihey.com](http://wiihey.com/en/index.html)
+* API Document: [WiiHey DaaS Platform MQTT API](https://wiihey.github.io/wiihey-daas-platform-mqtt-api)

@@ -24,7 +24,7 @@ We have provided a simple sample to get you started. In the Terminal window run 
 
 `git clone https://github.com/wiihey/nodejs-mqtt-client-demo.git`
 
-## Build and Run
+## Step 3: Build and Run
 
 Change to the directory that holds the sample:
 
@@ -46,9 +46,11 @@ WiiHey DaaS Client Started
 Connected to WiiHey DaaS Platform
 ```
 
-## Configure APP-ID and APP-KEY
+## Appendix: Configure APP-ID and APP-KEY
 
-You will get a pair of APP-ID and APP-KEY when purchasing WiiHey DaaS Service. You should configure them in the code.
+Should you receive APP-ID and APP-KEY when purchasing WiiHey product. You will need configure them in the code in order to receive messages properly.
+
+Please find following code in `src/index.js` and modify accordingly.
 
 ```
 // Please change APP_ID and APP_KEY to those provided by WiiHey Customer Service
@@ -56,12 +58,14 @@ var APP_ID = "demo";
 var APP_KEY = "demo123";
 ```
 
-Please find above code in `src/index.js` and modify according to your APP-ID and APP-KEY.
-
-## Work with Devices
+## Appendix: Work with Devices
 
 When Device sends message to WiiHey DaaS Platform, you may see output like this:
 ```
 Received: {"DeviceID":"3","State":"close","BatteryLevel":9971,"CSQ":31,"IMEI":"868575022027272","CCID":"89860414111890171008","Timestamp":1529997979}
 ```
 
+## Links
+
+[wiihey.com](http://wiihey.com/en/index.html)
+[WiiHey DaaS Platform MQTT API](https://wiihey.github.io/wiihey-daas-platform-mqtt-api)
